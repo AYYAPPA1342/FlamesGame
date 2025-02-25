@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLAMES Relationship Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1> FLAMES GAME</h1>
+    <div class="form-container">
+      <div class="input-group">
+        <input type="text" id="boyName" placeholder="Enter First Name" required>
+      </div>
+      <div class="input-group">
+        <input type="text" id="girlName" placeholder="Enter Second Name" required>
+      </div>
+      <div class="input-group">
+        <input type="file" id="boyImage" accept="image/*" required>
+      </div>
+      <div class="input-group">
+        <input type="file" id="girlImage" accept="image/*" required>
+      </div>
+      <button onclick="calculateFLAMES()">Find Relationship</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
